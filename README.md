@@ -32,12 +32,14 @@ mvn clean compile assembly:single
 
 ## Project Requirements
 
-Due: **Mon, Jan 30 2023** @1 AM
+Due: **Mon, Feb 06 2023** @1 AM
 
-- User can book hotel rooms for a certain day of the month (You only need to use the month of January)
-- Displays all rooms that are booked
-- Displays all available rooms
-- Rooms will be dirty for the day after the booking ends and will not be able to be booked if they are dirty.
-- There are rooms with different prices (low, medium, high) that the user can choose to book for the customer.
-- When a room is booked, no new customers can book that room for the day (can be multiple days in a row). Note: Exiting the program does not have to save the status of booking.
-- The program displays the total amount the customer will pay.
+- Explains rules to player
+- First, decide who goes first what color each player will have.
+- Players must alternate turns.
+- Only one disc can be dropped in each turn.
+- On your turn, drop one of your colored discs from the top into any of the seven slots.
+- The game ends when there is a 4-in-a-row (either vertically, horizontally, or diagonally) or a stalemate.
+- The starter of the previous game goes second on the next game.
+- Exit anytime
+- Keep score of wins and losses
